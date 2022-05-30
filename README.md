@@ -3,7 +3,15 @@
 
 [Link to the Paper](https://ieeexplore.ieee.org/document/8993082)
 
-This paper investigates six machine-learning models to determine which algorithm would effectively predict buzz on Twitter. Different classifiers are applied such as Stochastic Gradient Descent, Support Vector Machines, Logistic Regression, Deep Neural Networks, Random Forests and Extra Trees on a Twitter dataset. After tests conducted on all the algorithms, we concluded that Extra Trees model outperforms the other models.
+This paper investigates six machine-learning models to determine which algorithm would effectively predict buzz on Twitter. After tests conducted on all the algorithms, we concluded that Extra Trees model outperforms the other models.
+
+Different classifiers were applied on a Twitter dataset such as:
+* Stochastic Gradient Descent
+* Support Vector Machines
+* Logistic Regression
+* Deep Neural Networks
+* Random Forests
+* Extra Trees
 
 ## Dataset
 
