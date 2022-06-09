@@ -35,37 +35,34 @@ The dataset used in this research is the Twitter Absolute Dataset provided by Fr
  $ jupyter notebook
  ```
  - Once Jupyter Notebook is running, go to Twitter-Buzz-Research Directory
+ - Include the dataset provided in the directory of your choice 
  - Open Twitter-Research.ipynb & Run 
 
 ## Heatmaps
+[In-depth detail on Precision & Recall](https://en.m.wikipedia.org/wiki/Precision_and_recall)
 
 The heat maps presented below display the precision score (correct positive predictions), the recall score (correct positive predictions out of all positive cases), and the F1 score (Balance of both precision and recall scores). 
 
-<img src="/Readme/Heatmap_All.png" align="top"
-width="200" hspace="10" vspace="10">
-<img src="/Readme/Heatmap_SGD.png" align="top"
-width="200" hspace="10" vspace="10">
-<img src="/Readme/Heatmap_RandomForest.png" align="top"
-width="200" hspace="10" vspace="10">
-<img src="/Readme/Heatmap_ExtaTrees.png" align="top"
-width="200" hspace="10" vspace="10">
-<img src="/Readme/Heatmap_LR.png" align="top"
-width="200" hspace="10" vspace="10">
+Heatmap  | Image
+------------- | -------------
+All of the Classifiers  | ![](/Readme/Heatmap_All.png)
+Stochastic Gradient Descent  | ![](/Readme/Heatmap_SGD.png)
+Random Forest | ![](/Readme/Heatmap_RandomForest.png)
+Extra Trees | ![](/Readme/Heatmap_ExtaTrees.png)
+Logistic Regression  | ![](/Readme/Heatmap_LR.png)
 
 ## ROC Graphs
 
-ROC (Reciever Operating Characteristic) Graphs are tools used to predict probability of a binary outcome. It has a True Positive Rate on the y-axis and a False Positive Rate on the x-axis. Utilizing this graph demonstrates how the model performs at predicting the correct positive class. 
+[ROC (Reciever Operating Characteristic) Graphs](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) are tools used to predict probability of a binary outcome. It has a True Positive Rate on the y-axis and a False Positive Rate on the x-axis. Utilizing this graph demonstrates how the model performs at predicting the correct positive class. 
 
-<img src="/Readme/ROC_SGD.png" align="top"
-width="200" hspace="10" vspace="10">
-<img src="/Readme/ROC_RandomForest.png" align="top"
-width="200" hspace="10" vspace="10">
-<img src="/Readme/ROC_ExtraTrees.png" align="top"
-width="200" hspace="10" vspace="10">
-<img src="/Readme/ROC_LR.png" align="top"
-width="200" hspace="10" vspace="10">
 
- 
+ROC Graphs  | Image
+------------- | -------------
+Stochastic Gradient Descent  | ![](/Readme/ROC_SGD.png)
+Random Forest | ![](/Readme/ROC_RandomForest.png)
+Extra Trees | ![](/Readme/ROC_ExtraTrees.png)
+Logistic Regression  | ![](/Readme/ROC_LR.png)
+
 # Citation
 If you use this software in academic research, please, cite it using the following BibTeX:
 ```latex
